@@ -1,0 +1,38 @@
+.box{
+    background:#fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width:600px;
+    margin: 200px auto;
+    }
+p:hover{
+     color:aqua;
+     font-size: 30px;
+     cursor: pointer;
+}
+.box p{
+    color: #c85a5a;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    }
+.box .icon{
+    color:#abc85a;
+    font-size: 64px;
+    line-height:1;
+    }
+.box .ra{
+    font-family:Arial;
+    font-size: 10px;
+    text-align: right;
+    color:#c85a5a;
+    }
+
+body{
+    background-color: #a5b0ae;
+    }
+svg{
+    margin-bottom:0px;
+    fill:green;
+    }

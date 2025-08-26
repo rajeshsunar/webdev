@@ -1,0 +1,42 @@
+svg{
+    fill:blue;
+}
+.media-icons{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.icon-fb{
+    fill:#1877F2;
+}
+.icon-in{
+    fill:#0a66c2;
+}
+.icon-insta{
+    fill:plum;
+}
+.media-links:hover{
+    opacity: 0.5;
+}
+.media-links:hover svg{
+    fill: red;
+}
+.breadth-section{
+    width:100%;
+    height:1000px;
+    background-image: url('./images/bck.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.breadth-section-2{
+    background-attachment: fixed; /*palaaxy effectt*/
+}
+body{
+    height:1000px;
+}
+.spacer{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
