@@ -1,0 +1,21 @@
+.box{
+    height:200px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+p{
+    text-align: center;
+    color:black;
+}
+@media (min-width:768px)
+{
+    .box{
+        background-color: black;
+    }
+    p{
+        color:antiquewhite;
+    }
+}

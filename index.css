@@ -1,0 +1,61 @@
+/* *{
+    box-sizing: border-box;
+    margin:;
+    padding: 10px;
+} */
+body{
+    background-color: #dfccb2;
+}
+.id-card{
+    display: flex;
+    background-color: silver;
+    margin:200px auto;
+    padding:20px;
+    border-radius: 25px;
+    height: 300px;
+    width:400px;
+    border-color: #907e09;
+    border-style:groove;
+}
+.id-pic img{
+    width:100%;
+    height:80%;
+    padding-top: 0px;
+    border-radius: 25px;
+    border-color: blue;
+    border-style: dotted;
+}
+.infos{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info{
+    color:green;
+    padding-top: 30px;
+}
+
+.icon{
+    display: flex;
+    gap:15px;
+}
+svg{
+    fill:blue;
+}
+.icon-fb{
+    fill:#1877F2;
+}
+.icon-in{
+    fill:#0a66c2;
+}
+.icon-insta{
+    fill:#e22929;
+}
+.media-links:hover{
+    opacity: 0.5;
+}
+.media-links:hover svg{
+    fill: #907e09;
+}
