@@ -59,3 +59,10 @@ svg{
 .media-links:hover svg{
     fill: #907e09;
 }
+@media(max-width:600px){
+    .id-card{
+        flex-direction: column-reverse;
+        width:100%;
+        height:auto;    
+    }
+}
