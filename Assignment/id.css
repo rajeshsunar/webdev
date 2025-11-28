@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e9e3e3;
+  color: #1957a3;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ec7324;
+  font-weight: 500;
+  padding: 0px 0px 0px 0px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ec7324;
+  font-weight: 500;
+  padding: 0px 0px 0px 0px;
+}
+
+h2, h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ec7324;
+  font-weight: 500;
+  padding: 0px 0px 0px 0px;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  background: #28bfce;
+  border: 1px solid #ec7324;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+input[type="file"] {
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #1957a3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #f7af1a;
+  border: 1px solid #ec7324;
+}
+
+/* ID Card */
+.card {
+  background: #f5f5f5;
+  border: 1px solid #2e6ab4;
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 40px;
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 8px 25px #28bfce;
+}
+
+#cardPhoto {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid #28bfce;
+  margin-bottom: 20px;
+}
+
+.details p {
+  margin: 0px 20px 10px 20px;
+  font-size: 17px;
+  width: 100%;
+  text-align: left;
+  padding: 0px 20px 15px 10px;
+}
+
+.hidden {
+  display: none;
+}
